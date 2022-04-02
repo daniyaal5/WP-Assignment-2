@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task1</title>
+  </head>
+  <body>
+    <form action="./sqlclient.php" method="POST">
+      Server name
+      <input type="text" name="server_name" /> <br />
+      Mysql user
+      <input type="text" name="user" /> <br />
+      Mysql pass
+      <input type="text" name="pass" /> <br />
+      Mysql database
+      <input type="text" name="database" /> <br />
+
+      (Note: leave database blank if not created):<br />
+      <textarea name="query"> </textarea><br />
+      <button>Click</button>
+    </form>
+  </body>
+</html>
